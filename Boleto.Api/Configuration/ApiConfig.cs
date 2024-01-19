@@ -1,5 +1,6 @@
 ﻿using ControleBoleto.Data;
 using Microsoft.EntityFrameworkCore;
+using ControleBoleto.Core.Identidade;
 
 namespace ControleBoleto.Api.Configuration
 {
@@ -38,7 +39,7 @@ namespace ControleBoleto.Api.Configuration
 
             app.UseRouting();
 
-            /*app.UseAuthConfiguration();*/
+            app.UseAuthConfiguration();
 
             app.UseCors("Total");
 

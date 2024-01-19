@@ -1,12 +1,15 @@
 ﻿using AutoMapper;
 using ControleBoleto.Api.Application.DTO;
+using ControleBoleto.Api.Application.ViewModel;
 using ControleBoleto.Core.Controllers;
 using ControleBoleto.Domain.Interfaces;
 using ControleBoleto.Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ControleBoleto.Api.Controllers
 {
+    [Authorize]
     [Route("api/boletos")]
     public class BoletoController : MainController
     {
@@ -23,6 +26,18 @@ namespace ControleBoleto.Api.Controllers
         public async Task<ActionResult> Criar(BoletoDto boletoDto)
         {
             return CustomResponse(await _boletoService.Adicionar(_mapper.Map<Boleto>(boletoDto)));
+        }
+
+        [HttpGet()]
+        public async Task<ActionResult> OBterTodos()
+        {            
+            return CustomResponse(_mapper.Map<IEnumerable<BoletoViewModel>>(await _boletoService.ObterTodosBoletos()));
+        }
+
+        [HttpGet("obterPorId")]
+        public async Task<ActionResult> OBterPorId(Guid id)
+        {
+            return CustomResponse(_mapper.Map<BoletoViewModel>(await _boletoService.ObterBoletoPorId(id)));
         }
     }
 }

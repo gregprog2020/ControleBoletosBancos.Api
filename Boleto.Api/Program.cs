@@ -1,4 +1,5 @@
 using ControleBoleto.Api.Configuration;
+using ControleBoleto.Core.Identidade;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,13 +13,12 @@ builder.Services.AddSwaggerConfiguration();
 
 builder.Services.AddApiConfig(builder.Configuration);
 
-builder.Services.RegisterServices();
+builder.Services.AddJwtConfiguration(builder.Configuration);
 
-/*builder.Services.AddJwtConfiguration(builder.Configuration);*/
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 app.UseSwaggerConfiguration();
 
 app.UseApiConfiguration(app.Environment);

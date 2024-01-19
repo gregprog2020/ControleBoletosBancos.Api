@@ -1,0 +1,15 @@
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\bin\Debug\net6.0\ControleBoleto.Domain.deps.json
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\bin\Debug\net6.0\ControleBoleto.Domain.dll
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\bin\Debug\net6.0\ControleBoleto.Domain.pdb
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\bin\Debug\net6.0\ControleBoleto.Core.dll
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\bin\Debug\net6.0\ControleBoleto.Core.pdb
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.csproj.AssemblyReference.cache
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.AssemblyInfoInputs.cache
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.AssemblyInfo.cs
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.csproj.CopyComplete
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.dll
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\refint\ControleBoleto.Domain.dll
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ControleBoleto.Domain.pdb
+C:\Users\batis\Downloads\ControleBoleto.Api(2)\ControleBoleto.Api\Boleto.Domain\obj\Debug\net6.0\ref\ControleBoleto.Domain.dll

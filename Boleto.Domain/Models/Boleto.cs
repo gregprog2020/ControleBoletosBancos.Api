@@ -19,5 +19,19 @@ namespace ControleBoleto.Domain.Models
         public string Observacao { get; private set; }
         public Guid BancoId { get; private set; }
         public Banco Banco { get; set; }
+
+        public void CalcularValorComJuros(decimal valorBoleto, DateTime dataVencimento, decimal taxaJuros)
+        {
+            // Verifica se a data atual é após a data de vencimento
+            if (DateTime.Now > dataVencimento)
+            {
+                // Calcula o valor do boleto com juros
+                decimal juros = valorBoleto * taxaJuros / 100;
+                Valor = valorBoleto + juros;
+            }
+            
+        }
     }
+
+    
 }

@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleBoleto.Api", "Boleto.Api\ControleBoleto.Api.csproj", "{54B42A21-9415-47B5-BCEB-814E2DF0EF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleBoleto.Api", "Boleto.Api\ControleBoleto.Api.csproj", "{54B42A21-9415-47B5-BCEB-814E2DF0EF51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleBoleto.Data", "Boleto.Data\ControleBoleto.Data.csproj", "{58F0A7E6-BEED-48E7-9315-D40C16EA97F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleBoleto.Data", "Boleto.Data\ControleBoleto.Data.csproj", "{58F0A7E6-BEED-48E7-9315-D40C16EA97F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleBoleto.Domain", "Boleto.Domain\ControleBoleto.Domain.csproj", "{DFEB9F06-137B-43F8-AFBB-0F0201EFCE7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleBoleto.Domain", "Boleto.Domain\ControleBoleto.Domain.csproj", "{DFEB9F06-137B-43F8-AFBB-0F0201EFCE7A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{E52479BF-162C-430E-9C3C-AFEB7159DEAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C09476E8-6677-4B3E-9C9C-BB0D40F579E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleBoleto.Core", "Boleto.Core\ControleBoleto.Core.csproj", "{02A8280F-E304-43DD-B102-DBBD8C7E0FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleBoleto.Core", "Boleto.Core\ControleBoleto.Core.csproj", "{02A8280F-E304-43DD-B102-DBBD8C7E0FAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identidade", "Identidade", "{26CA6E7C-61E2-4169-A5D8-618C95A6D759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autenticacao.API", "Autenticacao.API\Autenticacao.API.csproj", "{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{02A8280F-E304-43DD-B102-DBBD8C7E0FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02A8280F-E304-43DD-B102-DBBD8C7E0FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02A8280F-E304-43DD-B102-DBBD8C7E0FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C09476E8-6677-4B3E-9C9C-BB0D40F579E9} = {E52479BF-162C-430E-9C3C-AFEB7159DEAB}
 		{02A8280F-E304-43DD-B102-DBBD8C7E0FAA} = {C09476E8-6677-4B3E-9C9C-BB0D40F579E9}
+		{F53D28B9-8DC9-464F-A14D-1D5959EBCBA2} = {26CA6E7C-61E2-4169-A5D8-618C95A6D759}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5514324D-EDC6-4127-BEB4-F6D3D8175473}

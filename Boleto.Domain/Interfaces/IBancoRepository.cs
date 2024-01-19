@@ -1,4 +1,5 @@
-﻿using ControleBoleto.Domain.Models;
+﻿using ControleBoleto.Core.DomainObjects;
+using ControleBoleto.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,6 @@ namespace ControleBoleto.Domain.Interfaces
 {
     public interface IBancoRepository : IRepository<Banco>
     {
+        Task<Banco> ObterPorCodigo(string codigo);
     }
 }

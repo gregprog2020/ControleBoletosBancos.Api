@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Is+kSMImkbrQ3KhSzvjy2J7JhhCEKOE/iC61XDPXpck=",
+  "Source": "ControleBoleto.Api",
+  "BasePath": "_content/ControleBoleto.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

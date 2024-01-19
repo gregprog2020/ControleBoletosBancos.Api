@@ -1,0 +1,12 @@
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\bin\Debug\net6.0\Identidade.API.deps.json
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\bin\Debug\net6.0\Identidade.API.dll
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\bin\Debug\net6.0\Identidade.API.pdb
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.AssemblyInfoInputs.cache
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.AssemblyInfo.cs
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.csproj.CoreCompileInputs.cache
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.dll
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\refint\Identidade.API.dll
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.pdb
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\ref\Identidade.API.dll
+C:\Users\alexj\OneDrive\Documentos\02 - PROJETOS\ControleBoleto.Api\Identidade.API\obj\Debug\net6.0\Identidade.API.csproj.AssemblyReference.cache

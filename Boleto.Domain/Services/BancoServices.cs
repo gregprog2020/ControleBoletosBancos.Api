@@ -18,14 +18,16 @@ namespace ControleBoleto.Domain.Services
         {
             _bancoRepository = bancoRepository;
         }
-        public Task<ValidationResult> Adicionar(Banco banco)
+        public async Task<ValidationResult> Adicionar(Banco banco)
         {
-            if (!_bancoRepository.Buscar(b => b.Id == boleto.BancoId).Result.Any())
+
+            if (_bancoRepository.Buscar(b => b.CodigoBanco == banco.CodigoBanco).Result.Any())
             {
-                AdicionarErro("Banco não cadastrado!");
+                AdicionarErro("Esse código já está vinculado a um outro banco!");
                 return ValidationResult;
             }
-            _bancoRepository.Adicionar(banco);
+
+            await _bancoRepository.Adicionar(banco);
 
             return await PersistirDados(_bancoRepository.UnitOfWork);
         }

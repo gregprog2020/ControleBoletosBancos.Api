@@ -13,5 +13,7 @@ namespace ControleBoleto.Domain.Interfaces
         Task<ValidationResult> Adicionar(Boleto boleto);
         Task<ValidationResult> Atualizar(Boleto boleto);
         Task<ValidationResult> Remover(Guid id);
+        Task<List<Boleto>> ObterTodosBoletos();
+        Task<Boleto> ObterBoletoPorId(Guid id);
     }
 }

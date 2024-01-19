@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ControleBoleto.Api.props" />
+</Project>
